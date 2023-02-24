@@ -18,7 +18,7 @@ class _PdpUiScreenState extends State<PdpScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff212121),
+        backgroundColor: const Color(0xff212121),
         leading: IconButton(
             onPressed: () {},
             icon: const Icon(
@@ -52,7 +52,10 @@ class _PdpUiScreenState extends State<PdpScreen> {
               height: 22,
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 28, right: 28),
+              padding: const EdgeInsets.only(
+                left: 28,
+                right: 28,
+              ),
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
