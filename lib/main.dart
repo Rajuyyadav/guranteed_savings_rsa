@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'lib/discovery_screen/pdp_screen.dart';
-import 'lib/discovery_screen/pdp_screen_two.dart';
+import 'guided_journey_screen/amount_income_screen.dart';
+import 'guided_journey_screen/amount_invest_screen.dart';
+import 'manual_journey_screen/compare_plans_screen.dart';
+import 'manual_journey_screen/compare_plans_screen_one.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       home:
           //const MyHomePage(title: 'Flutter Demo Home Page'),
-          const PdpScreenDiscoveryPageTwo(),
+          const ComparePlans2(),
     );
   }
 }
