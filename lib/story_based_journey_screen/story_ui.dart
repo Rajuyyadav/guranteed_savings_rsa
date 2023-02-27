@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tata_motors_insurance_guranteed_savings_project/lib/story_based_journey_screen/story_view.dart';
+import 'package:tata_motors_insurance_guranteed_savings_project/story_based_journey_screen/story_view.dart';
 
 class StoryUi extends StatefulWidget {
   const StoryUi({Key? key}) : super(key: key);

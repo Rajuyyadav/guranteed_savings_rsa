@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tata_motors_insurance_guranteed_savings_project/lib/guided_journey_screen/user_details_screen.dart';
+import 'package:tata_motors_insurance_guranteed_savings_project/guided_journey_screen/user_details_screen.dart';
 
 // import '../const_black_container.dart';
 // import '../const_container_two.dart';

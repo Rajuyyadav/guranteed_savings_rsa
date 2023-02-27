@@ -24,7 +24,6 @@ class GsDetails extends StatelessWidget {
                       style: Ts.helveticaRegular.const18.lightBlack121.h13),
                 ),
                 Flexible(
-                  flex: 1,
                   child: Icon(
                     Icons.close,
                     size: 24,
@@ -43,6 +42,7 @@ class GsDetails extends StatelessWidget {
           const SizedBox(
             height: 22,
           ),
+
           Padding(
             padding: const EdgeInsets.only(left: 12, right: 60),
             child: Text("Grow your wealth in long term",
