@@ -48,6 +48,11 @@ class GsDetails extends StatelessWidget {
             child: Text("Grow your wealth in long term",
                 style: Ts.helveticaBold.const28.h12.lightBlack747),
           ),
+          Padding(
+            padding: const EdgeInsets.only(left: 12, right: 60),
+            child: Text("Grow your wealth in long term",
+                style: Ts.helveticaBold.const28.h12.lightBlack747),
+          ),
           const SizedBox(
             height: 16,
           ),

@@ -26,7 +26,7 @@ class AmountIncomePage extends StatelessWidget {
       body: Column(
         children: [
           BlackBox(
-            image: "asset/image/img_one.png",
+            image: "asset/images/img_one.png",
             text: "Select an amount for income",
             value: 0.6,
           ),
