@@ -24,7 +24,6 @@ class GsDetails extends StatelessWidget {
                       style: Ts.helveticaRegular.const18.lightBlack121.h13),
                 ),
                 Flexible(
-                  flex: 1,
                   child: Icon(
                     Icons.close,
                     size: 24,
